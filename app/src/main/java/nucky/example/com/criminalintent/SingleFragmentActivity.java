@@ -7,6 +7,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
 
 public abstract class SingleFragmentActivity extends AppCompatActivity {
+    //抽象创建Fragment方法,具体实现在子类
     protected abstract Fragment createFragment();
 
     @Override
